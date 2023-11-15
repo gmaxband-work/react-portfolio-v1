@@ -23,7 +23,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex lg:flex-1 bg-about bg-contain bg-no-repeat h-[450px] lg:h-[700px] mix-blend-lighten bg-top mb-10 lg:mb-0'
+            className='flex lg:flex-1 bg-about bg-contain bg-no-repeat h-[550px] lg:h-[750px] mix-blend-lighten bg-top'
           ></motion.div>
           {/* text */}
           <motion.div
@@ -31,7 +31,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 justify-center lg:justify-start'
+            className='flex-1'
           >
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>
@@ -44,7 +44,7 @@ const About = () => {
               technologies where I think where my current strengths are.
             </p>
             {/* stats */}
-            <div className='flex gap-x-8 lg:gap-x-10 mb-12 justify-center lg:justify-start'>
+            <div className='flex gap-x-8 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={10} duration={3} /> : null}+
@@ -64,7 +64,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex lg:max-w-max gap-x-8 items-center justify-center lg:justify-start'>
+            <div className='flex max-w-max gap-x-8 items-center'>
               <button className='btn btn-lg'>Contact Me</button>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
