@@ -6,7 +6,7 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo */}
-          <a href='#'>
+          <a href='/#'>
             <p className='text-[25px]  font-bold leading-[1] min-h-[20px] flex flex-row'>
               <span className='text-gradient leading-[0.85]'>GMAX</span>
               <span>BAND</span>
