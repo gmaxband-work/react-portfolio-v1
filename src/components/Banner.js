@@ -3,7 +3,7 @@ import React from 'react';
 // images
 import Image from '../assets/avatar.png';
 // icons
-import { FaGithub, FaYoutube, FaDribbble, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaFacebook } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -74,7 +74,7 @@ const Banner = () => {
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
               <button className='btn btn-lg'>Contact Me</button>
-              <a href='#' className='text-gradient btn-link'>
+              <a href='/#' className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div>
@@ -86,10 +86,10 @@ const Banner = () => {
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
               {/* socials */}
-              <a href='#'>
+              <a href='/#'>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a href='/#'>
                 <FaFacebook />
               </a>
             </motion.div>
