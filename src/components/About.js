@@ -38,10 +38,12 @@ const About = () => {
               I'm a Front-end Developer with over 10+ years of experience.
             </h3>
             <p className='mb-6'>
-              Currently what I'm truly passionate about is on the newer Front
-              End technologies such as React and Angular. I find great
-              satisfaction in completing projects related to those front end
-              technologies where I think where my current strengths are.
+              My diverse work experience has equipped me with a comprehensive
+              understanding of web development and a proven track record of
+              delivering successful projects. This includes working with .NET
+              technologies like Visual Basic, ASP.NET, MVC, C#, as well as
+              utilizing newer Front-End technologies such as AngularJS, ReactJS
+              and TypeScript.
             </p>
             {/* stats */}
             <div className='flex gap-x-8 lg:gap-x-10 mb-12'>

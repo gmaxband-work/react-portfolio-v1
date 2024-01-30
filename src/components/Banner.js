@@ -60,11 +60,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              I consider myself as a Web App Developer with over 12 years of
-              combined experience in Web based Application Development.
-              Throughout my career, I've had the opportunity to work at
-              different companies and have worked on techologies such as
-              ASP.NET, MVC, C#, Angular and React.
+              Detailed-oriented Web Developer with over 12 years of experience
+              crafting clean and efficient code. Proficient in both front-end
+              and back-end technologies, dedicated to creating user-centric,
+              visually appealing websites and applications.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
